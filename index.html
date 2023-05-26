@@ -1,0 +1,888 @@
+<!DOCTYPE html> <html><head>
+        <title>A Day of Fishing</title>
+    <style>/* Feel free to change any of the styling below!*/
+body {
+    text-align: center;
+    background: lightblue;
+}
+
+.MainMenu {
+}
+
+img {
+    width: 1220px;
+    height: 550px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: -525px;
+}
+
+.playbtn {
+    margin-top: 1px;
+    font-family: Verdana;
+    font-size: 50px;
+    margin-top: 75px;
+    background: transparent;
+    border: 0px;
+}
+
+.playbtn:hover {
+    margin-top: 1px;
+    font-family: Verdana;
+    font-size: 50px;
+    margin-top: 75px;
+    background: transparent;
+    border: 0px;
+    transform: scale(1.5, 1.5);
+    transition: 0.4s;
+}
+
+.tacklebox1 {
+    display: flex;
+    justify-content: flex-start;
+    width: 500px;
+    height: 300px;
+    margin-left: 30px;
+}
+
+.rod1 {
+    display: flex;
+    justify-content: center;
+    width: 475px;
+    height: 375px;
+    margin-top: -350px;
+    margin-left: 700px;
+    margin-bottom: 0px;
+}
+
+.instruct {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: -525px;
+}
+
+.instruct1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: -525px;
+}
+
+.tacklebox2 {
+    display: flex;
+    justify-content: flex-start;
+    width: 550px;
+    height: 350px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.tacklebox3 {
+    display: flex;
+    justify-content: flex-start;
+    width: 550px;
+    height: 350px;
+    margin-left: 20px;
+    margin-top: 100px;
+    visibility: hidden;
+}
+
+
+.rod2 {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 450px;
+    margin-top: -450px;
+    margin-left: 875px;
+}
+
+.rod3 {
+    width: 200px;
+    height: 450px;
+}
+
+.BOXLargeHook {
+    display: flex;
+    justify-content: flex-start;
+    width: 175px;
+    height: 125px;
+    margin-top: -350px;
+    margin-left: 110px;
+}
+
+.BOXLargeHook:Hover {
+    display: flex;
+    justify-content: flex-start;
+    width: 175px;
+    height: 125px;
+    margin-top: -350px;
+    margin-left: 110px;
+    transform: scale(1.3, 1.3);
+}
+
+.BOXLargeHook1 {
+    display: flex;
+    justify-content: flex-start;
+    width: 135px;
+    height: 75px;
+    margin-top: -332px;
+    margin-left: 125px;
+}
+
+.LargeHook {
+    display: flex;
+    justify-content: flex-start;
+    width: 50px;
+    height: 95px;
+    margin-top: -486px;
+    margin-left: 852px;
+    margin-bottom: 0px;
+}
+
+.LargeHookA {
+    display: flex;
+    justify-content: flex-start;
+    width: 50px;
+    height: 95px;
+    margin-top: -486px;
+    margin-left: 852px;
+    margin-bottom: 0px;
+}
+
+.BOXSmallHook {
+    display: flex;
+    justify-content: flex-start;
+    width: 60px;
+    height: 30px;
+    margin-top: -110px;
+    margin-left: 390px;
+    margin-bottom: 400px;
+}
+
+.BOXSmallHook:Hover {
+    display: flex;
+    justify-content: flex-start;
+    width: 60px;
+    height: 30px;
+    margin-top: -110px;
+    margin-left: 390px;
+    margin-bottom: 400px;
+    transform: scale(1.5, 1.5);
+}
+
+.BOXSmallHook1 {
+    display: flex;
+    justify-content: flex-start;
+    width: 60px;
+    height: 30px;
+    margin-top: -78px;
+    margin-left: 390px;
+    margin-bottom: 400px;
+}
+
+.SmallHook {
+    display: flex;
+    justify-content: flex-start;
+    width: 25px;
+    height: 47.5px;
+    margin-top: -483px;
+    margin-left: 858px;
+    margin-bottom: 0px;
+}
+
+.SmallHookA {
+    display: flex;
+    justify-content: flex-start;
+    width: 25px;
+    height: 47.5px;
+    margin-top: -483px;
+    margin-left: 858px;
+    margin-bottom: 0px;
+}
+
+.BOXSmallBait {
+    display: flex;
+    justify-content: flex-start;
+    width: 100px;
+    height: 75px;
+    margin-top: -275px;
+    margin-left: 165px;
+}
+
+.BOXSmallBait1 {
+    display: flex;
+    justify-content: flex-start;
+    width: 110px;
+    height: 85px;
+    margin-top: -281px;
+    margin-left: 159px;
+}
+
+.BOXSmallBait1:hover {
+    display: flex;
+    justify-content: flex-start;
+    width: 110px;
+    height: 85px;
+    margin-top: -281px;
+    margin-left: 159px;
+    transform: scale(1.5, 1.5);
+}
+
+.BOXSmallBait1I {
+    display: flex;
+    justify-content: flex-start;
+    width: 110px;
+    height: 85px;
+    margin-top: -281px;
+    margin-left: 159px;
+}
+
+.BOXSmallBait1I:hover {
+    display: flex;
+    justify-content: flex-start;
+    width: 110px;
+    height: 85px;
+    margin-top: -281px;
+    margin-left: 159px;
+    transform: scale(1.5, 1.5);
+}
+
+.BOXLargeBait {
+    display: flex;
+    justify-content: flex-start;
+    width: 250px;
+    height: 100px;
+    margin-top: -125px;
+    margin-left: 325px;
+    margin-bottom: 0px;
+}
+
+.BOXLargeBait1 {
+    display: flex;
+    justify-content: flex-start;
+    width: 250px;
+    height: 100px;
+    margin-top: -126px;
+    margin-left: 325px;
+    margin-bottom: 400px;
+}
+
+.BOXLargeBait1:hover {
+    display: flex;
+    justify-content: flex-start;
+    width: 250px;
+    height: 100px;
+    margin-top: -126px;
+    margin-left: 325px;
+    margin-bottom: 400px;
+    transform: scale(1.3, 1.3);
+}
+
+.BOXLargeBait1I {
+    display: flex;
+    justify-content: flex-start;
+    width: 250px;
+    height: 100px;
+    margin-top: -126px;
+    margin-left: 325px;
+    margin-bottom: 400px;
+}
+
+.BOXLargeBait1I:hover {
+    display: flex;
+    justify-content: flex-start;
+    width: 250px;
+    height: 100px;
+    margin-top: -126px;
+    margin-left: 325px;
+    margin-bottom: 400px;
+    transform: scale(1.3, 1.3);
+}
+
+.rig1 {
+    width: 200px;
+    height: 450px;
+    margin-top: -450px;
+    margin-left: 875px;
+}
+
+.rig1:hover {
+    width: 200px;
+    height: 450px;
+    margin-top: -450px;
+    margin-left: 875px;
+    transform: scale(1.1, 1.1);
+}
+
+.hook2HB {
+    display: flex;
+    justify-content: flex-start;
+    width: 70px;
+    height: 165px;
+    margin-top: -218px;
+    margin-left: -16.5px;
+    margin-bottom: 0px;
+}
+
+.rig2 {
+    width: 200px;
+    height: 450px;
+    margin-top: -450px;
+    margin-left: 875px;
+}
+
+.rig2:hover {
+    width: 200px;
+    height: 450px;
+    margin-top: -450px;
+    margin-left: 875px;
+    transform: scale(1.1, 1.1);
+}
+
+.hook2Hb {
+    display: flex;
+    justify-content: flex-start;
+    width: 50.5px;
+    height: 98.5px;
+    margin-top: -217.5px;
+    margin-left: -23.5px;
+    margin-bottom: 0px;
+}
+
+.rig3 {
+    width: 200px;
+    height: 450px;
+    margin-top: -450px;
+    margin-left: 875px;
+}
+
+.rig3:hover {
+    width: 200px;
+    height: 450px;
+    margin-top: -450px;
+    margin-left: 875px;
+    transform: scale(1.1, 1.1);
+}
+
+.hook2hb {
+    display: flex;
+    justify-content: flex-start;
+    width: 25.4px;
+    height: 48.5px;
+    margin-top: -214.9px;
+    margin-left: -17.5px;
+    margin-bottom: 0px;
+}
+
+.rig4 {
+    width: 200px;
+    height: 450px;
+    margin-top: -450px;
+    margin-left: 875px;
+}
+
+.rig4:hover {
+    width: 200px;
+    height: 450px;
+    margin-top: -450px;
+    margin-left: 875px;
+    transform: scale(1.1, 1.1);
+}
+
+.hook2hB {
+    display: flex;
+    justify-content: flex-start;
+    width: 105px;
+    height: 180px;
+    margin-top: -233.5px;
+    margin-left: -73.5px;
+    margin-bottom: 0px;
+}
+
+.cast {
+    width: 200px;
+    height: 400px;
+    margin-top: -10px;
+    margin-right: -60px;
+}
+
+.reel1 {
+    margin-top: 250px;
+    margin-right: -5px;
+    font-family: Verdana;
+    font-size: 50px;
+    background: transparent;
+    border: 0px;
+}
+
+.reel1:hover {
+    margin-top: 250px;
+    margin-right: -5px;
+    font-family: Verdana;
+    font-size: 50px;
+    background: transparent;
+    border: 0px;
+    transform: scale(1.5, 1.5);
+}
+
+.reel2 {
+    margin-top: 250px;
+    margin-right: -5px;
+    font-family: Verdana;
+    font-size: 50px;
+    background: transparent;
+    border: 0px;
+}
+
+.reel2:hover {
+    margin-top: 250px;
+    margin-right: -5px;
+    font-family: Verdana;
+    font-size: 50px;
+    background: transparent;
+    border: 0px;
+    transform: scale(1.5, 1.5);
+}
+
+.reel3 {
+    margin-top: 250px;
+    margin-right: -5px;
+    font-family: Verdana;
+    font-size: 50px;
+    background: transparent;
+    border: 0px;
+}
+
+.reel3:hover {
+    margin-top: 250px;
+    margin-right: -5px;
+    font-family: Verdana;
+    font-size: 50px;
+    background: transparent;
+    border: 0px;
+    transform: scale(1.5, 1.5);
+}
+
+.reel4 {
+    margin-top: 250px;
+    margin-right: -5px;
+    font-family: Verdana;
+    font-size: 50px;
+    background: transparent;
+    border: 0px;
+}
+
+.reel4:hover {
+    margin-top: 250px;
+    margin-right: -5px;
+    font-family: Verdana;
+    font-size: 50px;
+    background: transparent;
+    border: 0px;
+    transform: scale(1.5, 1.5);
+}
+
+.fishingrig1 {
+    display: flex;
+    justify-content: center;
+    margin-top: -400px;
+    margin-left: 100px;
+}
+
+.fishingrig2 {
+    display: flex;
+    justify-content: center;
+    margin-top: -400px;
+    margin-left: 100px;
+}
+
+.fishingrig3 {
+    display: flex;
+    justify-content: center;
+    margin-top: -400px;
+    margin-left: 100px;
+}
+
+.fishingrig4 {
+    display: flex;
+    justify-content: center;
+    margin-top: -400px;
+    margin-left: 100px;
+}
+
+.fish {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 1220px;
+    height: 550px;
+}
+
+.fishimg {
+  width: 768.6px;
+  height: 346.5px;
+}
+
+.fishimgdiv {
+    
+}
+
+.RTM {
+    font-family: Verdana;
+    font-size: 25px;
+    background: transparent;
+    border: 0px;
+}
+
+.RTM:Hover {
+    font-family: Verdana;
+    font-size: 25px;
+    background: transparent;
+    border: 0px;
+    transform: scale(1.5, 1.5);
+    transition: 0.5s;
+}
+
+
+p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+button {
+    height: 40px;
+}
+
+
+h1 {
+    font-size: 50px;
+    color: black;
+}
+
+/* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
+
+
+.Option1 {
+   display:none;
+}
+
+.Option2H {
+   display:none;
+}
+
+.Option2h {
+   display:none;
+}
+
+.Option2HB {
+   display:none;
+}
+
+.Option2Hb {
+    display: none;
+}
+
+.Option2hb {
+    display: none;
+}
+
+.Option2hB {
+    display: none;
+}
+
+.fishing2HB {
+    display: none;
+}
+
+.fishing2Hb {
+    display: none;
+}
+
+.fishing2hb {
+    display: none;
+}
+
+.fishing2hB {
+    display: none;
+}
+
+.fish {
+    display: none;
+}
+
+
+/* 
+.open-one-end{
+   display:none;
+}
+*/
+
+/* 
+.open-two-end{
+   display:none;
+}
+*/
+
+</style></head>
+    <body>
+        <!--Between lines 8-12, put the opening of your story-->
+        <div class="MainMenu">
+            <img alt="FishingDock" src="https://cdn.discordapp.com/attachments/692589933571080245/1073792029714305114/Unit3.png">
+            <div class="title">Day of Fishing
+            </div>
+            <button class="playbtn">Play</button>
+            <img class="tacklebox1" alt="TackleBox" src="https://cdn.discordapp.com/attachments/692589933571080245/1073809580498354186/TackleBOXCLOSED.png">
+            <img class="rod1" alt="FishingRod" src="https://cdn.discordapp.com/attachments/692589933571080245/1073826993604407326/Rod1.png">
+        </div>
+        
+        
+        <div class="Option1">
+            <img alt="FishingDock" src="https://cdn.discordapp.com/attachments/692589933571080245/1073792029714305114/Unit3.png">
+            <h1 class="instruct">Look in tacklebox for hooks, pick one</h1>
+            <img class="tacklebox2" alt="TackleBox" src="https://cdn.discordapp.com/attachments/692589933571080245/1074059877007237171/TackleBOX.png">
+            <img class="rod2" alt="FishingRod" src="https://media.discordapp.net/attachments/692589933571080245/1074100372387418192/Rod2.png">
+                <img class="BOXLargeHook" alt="LargeHook" src="https://cdn.discordapp.com/attachments/692589933571080245/1074149999170027651/BOXLargeHook.png">
+            <img class="BOXSmallHook" alt="SmallHook" src="https://cdn.discordapp.com/attachments/692589933571080245/1074148551464071209/BOXSmallHook.png">
+            <img class="BOXSmallBait" alt="SmallBait" src="https://cdn.discordapp.com/attachments/692589933571080245/1074168823680339988/BOXSmallBait.png">
+            <img class="BOXLargeBait" alt="LargeBait" src="https://cdn.discordapp.com/attachments/692589933571080245/1077455398975578132/BOXShad.png">
+        </div>
+        
+        <div class="Option2H">
+            <img alt="FishingDock" src="https://cdn.discordapp.com/attachments/692589933571080245/1073792029714305114/Unit3.png">
+            <h1 class="instruct">Choose a bait to use</h1>
+            <img class="tacklebox2" alt="TackleBox" src="https://cdn.discordapp.com/attachments/692589933571080245/1074059877007237171/TackleBOX.png">
+            <img class="rod2" alt="FishingRod" src="https://media.discordapp.net/attachments/692589933571080245/1074100372387418192/Rod2.png">
+            <img class="BOXLargeHook1" alt="" src="https">
+            <img class="BOXSmallHook1" alt="SmallHook" src="https://cdn.discordapp.com/attachments/692589933571080245/1074148826765611008/BOXSmallHook.png">
+            <img class="BOXSmallBait1I" alt="SmallBait" src="https://cdn.discordapp.com/attachments/692589933571080245/1077463272355266560/BOXSmallBait1.png">
+            <img class="BOXLargeBait1" alt="LargeBait" src="https://cdn.discordapp.com/attachments/692589933571080245/1077467211964358666/BOXLargeBait1.png">
+            <img class="LargeHook" src="https://cdn.discordapp.com/attachments/692589933571080245/1077470315518623744/LargeHook.png">
+        </div>
+        
+        <div class="Option2h">
+            <img alt="FishingDock" src="https://cdn.discordapp.com/attachments/692589933571080245/1073792029714305114/Unit3.png">
+            <h1 class="instruct">Choose a bait to use</h1>
+            <img class="tacklebox2" alt="TackleBox" src="https://cdn.discordapp.com/attachments/692589933571080245/1074059877007237171/TackleBOX.png">
+            <img class="rod2" alt="FishingRod" src="https://media.discordapp.net/attachments/692589933571080245/1074100372387418192/Rod2.png">
+            <img class="BOXLargeHook1" alt="LargeHook" src="https://media.discordapp.net/attachments/692589933571080245/1074136854217117736/BOXLargeHook.png">
+            <img class="BOXSmallHook1" alt="" src="https">
+            <img class="BOXSmallBait1" alt="SmallBait" src="https://cdn.discordapp.com/attachments/692589933571080245/1077463272355266560/BOXSmallBait1.png">
+            <img class="BOXLargeBait1I" alt="LargeBait" src="https://cdn.discordapp.com/attachments/692589933571080245/1077467211964358666/BOXLargeBait1.png">
+            <img class="SmallHook" alt="SmallHook" src="https://cdn.discordapp.com/attachments/692589933571080245/1077808182937792522/SmallHook.png">
+        </div>
+        
+        <div class="Option2HB">
+            <img alt="FishingDock" src="https://cdn.discordapp.com/attachments/692589933571080245/1073792029714305114/Unit3.png">
+            <h1 class="instruct">Cast your line out into the water</h1>
+            <img class="tacklebox3" alt="None" src="https://cdn.discordapp.com/attachments/692589933571080245/1074059877007237171/TackleBOX.png">
+            <div class="rig1"><img class="rod3" alt="FishingRod" src="https://media.discordapp.net/attachments/692589933571080245/1074100372387418192/Rod2.png">
+                <img class="hook2HB" alt="LargeHookLargeBait" src="https://cdn.discordapp.com/attachments/692589933571080245/1077819738736054313/LargeHookLargeBait.png">
+            </div>
+        </div>
+        
+        <div class="Option2Hb">
+            <img alt="FishingDock" src="https://cdn.discordapp.com/attachments/692589933571080245/1073792029714305114/Unit3.png">
+            <h1 class="instruct">Cast your line out into the water</h1>
+            <img class="tacklebox3" alt="None" src="https://cdn.discordapp.com/attachments/692589933571080245/1074059877007237171/TackleBOX.png">
+            <div class="rig2"><img class="rod3" alt="FishingRod" src="https://media.discordapp.net/attachments/692589933571080245/1074100372387418192/Rod2.png">
+                <img class="hook2Hb" alt="LargeHookSmallBait" src="https://cdn.discordapp.com/attachments/692589933571080245/1078181975736713216/LargeHookSmallBait.png">
+            </div>
+        </div>
+        
+        <div class="Option2hb">
+            <img alt="FishingDock" src="https://cdn.discordapp.com/attachments/692589933571080245/1073792029714305114/Unit3.png">
+            <h1 class="instruct">Cast your line out into the water</h1>
+            <img class="tacklebox3" alt="None" src="https://cdn.discordapp.com/attachments/692589933571080245/1074059877007237171/TackleBOX.png">
+            <div class="rig3"><img class="rod3" alt="FishingRod" src="https://media.discordapp.net/attachments/692589933571080245/1074100372387418192/Rod2.png">
+                <img class="hook2hb" alt="SmallHookSmallBait" src="https://cdn.discordapp.com/attachments/692589933571080245/1077814942696230973/SmallHookSmallBait.png">
+            </div>
+        </div>
+        
+        <div class="Option2hB">
+            <img alt="FishingDock" src="https://cdn.discordapp.com/attachments/692589933571080245/1073792029714305114/Unit3.png">
+            <h1 class="instruct">Cast your line out into the water</h1>
+            <img class="tacklebox3" alt="None" src="https://cdn.discordapp.com/attachments/692589933571080245/1074059877007237171/TackleBOX.png">
+            <div class="rig4"><img class="rod3" alt="FishingRod" src="https://media.discordapp.net/attachments/692589933571080245/1074100372387418192/Rod2.png">
+                <img class="hook2hB" alt="SmallHookLargeBait" src="https://cdn.discordapp.com/attachments/692589933571080245/1078189286752538624/SmallHookLargeBait.png">
+            </div>
+        </div>
+        
+        <div class="fishing2HB">
+                    <img alt="FishingDock" src="https://cdn.discordapp.com/attachments/692589933571080245/1073792029714305114/Unit3.png">
+            <h1 class="instruct">Reel in fish</h1>
+            <img class="tacklebox3" alt="None" src="https://cdn.discordapp.com/attachments/692589933571080245/1074059877007237171/TackleBOX.png">
+             <div class="fishingrig1">
+            <button class="reel1">REEL!</button>
+            <img class="cast" alt="FishingRig" src="https://cdn.discordapp.com/attachments/692589933571080245/1079541481125187614/fishingcast.png">
+            </div>
+                </div>
+        
+        <div class="fishing2Hb">
+                    <img alt="FishingDock" src="https://cdn.discordapp.com/attachments/692589933571080245/1073792029714305114/Unit3.png">
+            <h1 class="instruct">Reel in fish</h1>
+            <img class="tacklebox3" alt="None" src="https://cdn.discordapp.com/attachments/692589933571080245/1074059877007237171/TackleBOX.png">
+            <div class="fishingrig2">
+            <button class="reel2">REEL!</button>
+            <img class="cast" alt="FishingRig" src="https://cdn.discordapp.com/attachments/692589933571080245/1079541481125187614/fishingcast.png">
+            </div>
+                </div>
+        
+        <div class="fishing2hb">
+                    <img alt="FishingDock" src="https://cdn.discordapp.com/attachments/692589933571080245/1073792029714305114/Unit3.png">
+            <h1 class="instruct">Reel in fish</h1>
+            <img class="tacklebox3" alt="None" src="https://cdn.discordapp.com/attachments/692589933571080245/1074059877007237171/TackleBOX.png">
+             <div class="fishingrig3">
+            <button class="reel3">REEL!</button>
+            <img class="cast" alt="FishingRig" src="https://cdn.discordapp.com/attachments/692589933571080245/1079541481125187614/fishingcast.png">
+            </div>
+                </div>
+        
+        <div class="fishing2hB">
+                    <img alt="FishingDock" src="https://cdn.discordapp.com/attachments/692589933571080245/1073792029714305114/Unit3.png">
+            <h1 class="instruct">Reel in fish</h1>
+            <img class="tacklebox3" alt="None" src="https://cdn.discordapp.com/attachments/692589933571080245/1074059877007237171/TackleBOX.png">
+            <div class="fishingrig4">
+            <button class="reel4">REEL!</button>
+            <img class="cast" alt="FishingRig" src="https://cdn.discordapp.com/attachments/692589933571080245/1079541481125187614/fishingcast.png">
+            </div>
+                </div>
+        <div class="fish">
+            <img alt="FishingDock" src="https://cdn.discordapp.com/attachments/692589933571080245/1073792029714305114/Unit3.png">
+            <h1 class="instruct1">space-holder</h1>
+            <div class="fishimgdiv"><img id="imgfish" class="fishimg" alt="fishcaught" src="https"></div>
+            <div class="RTMdiv"><button class="RTM">Return to Main Menu</button></div>
+        </div>
+  
+    
+<script>
+/*__POPCODESTART__*/
+/* Declare variables below to save the different sections (divs) of your story*/
+var play = document.querySelector(".playbtn");
+var MM = document.querySelector(".MainMenu");
+var Opt1 = document.querySelector(".Option1");
+var Opt2H = document.querySelector(".Option2H");
+var Opt2h = document.querySelector(".Option2h");
+var Opt2HB = document.querySelector(".Option2HB");
+var Opt2hb = document.querySelector(".Option2hb");
+var Opt2Hb = document.querySelector(".Option2Hb");
+var Opt2hB = document.querySelector(".Option2hB");
+var fishing2HB = document.querySelector(".fishing2HB");
+var fishing2Hb = document.querySelector(".fishing2Hb");
+var fishing2hb = document.querySelector(".fishing2hb");
+var fishing2hB = document.querySelector(".fishing2hB");
+var LargeHook = document.querySelector(".BOXLargeHook");
+var SmallHook = document.querySelector(".BOXSmallHook");
+var LargeBait = document.querySelector(".BOXLargeBait1");
+var SmallBait = document.querySelector(".BOXSmallBait1");
+var LargeBaitI = document.querySelector(".BOXLargeBait1I");
+var SmallBaitI = document.querySelector(".BOXSmallBait1I");
+var rig1 = document.querySelector(".rig1");
+var rig2 = document.querySelector(".rig2");
+var rig3 = document.querySelector(".rig3");
+var rig4 = document.querySelector(".rig4");
+var reel1 = document.querySelector(".reel1");
+var reel2 = document.querySelector(".reel2");
+var reel3 = document.querySelector(".reel3");
+var reel4 = document.querySelector(".reel4");
+var fish = document.querySelector(".fish");
+var rtm = document.querySelector(".RTM");
+var instruct = document.querySelector(".instruct1");
+var fishimg = document.querySelector(".fishimg");
+/* When you're ready to make event handlers, uncomment the code below. Then fill in the blanks with the correct variables!*/
+
+play.onclick = function () {
+  Opt1.style.display = "inline";
+  MM.style.display = "none";
+};
+
+LargeHook.onclick = function () {
+  Opt2H.style.display = "inline";
+  Opt1.style.display = "none";
+};
+
+SmallHook.onclick = function () {
+  Opt2h.style.display = "inline";
+  Opt1.style.display = "none";
+};
+
+LargeBait.onclick = function () {
+  Opt2HB.style.display = "inline";
+  Opt2H.style.display = "none";
+};
+
+rig1.onclick = function () {
+  fishing2HB.style.display = "inline";
+  Opt2HB.style.display = "none";
+};
+
+SmallBait.onclick = function () {
+  Opt2hb.style.display = "inline";
+  Opt2h.style.display = "none";
+};
+
+rig3.onclick = function () {
+  fishing2hb.style.display = "inline";
+  Opt2hb.style.display = "none";
+};
+
+LargeBaitI.onclick = function () {
+  Opt2hB.style.display = "inline";
+  Opt2h.style.display = "none";
+};
+
+rig4.onclick = function () {
+  fishing2hB.style.display = "inline";
+  Opt2hB.style.display = "none";
+};
+
+SmallBaitI.onclick = function () {
+  Opt2Hb.style.display = "inline";
+  Opt2H.style.display = "none";
+};
+
+rig2.onclick = function () {
+  fishing2Hb.style.display = "inline";
+  Opt2Hb.style.display = "none";
+};
+
+reel1.onclick = function () {
+  instruct.innerHTML = "WOW! You caught a Giant Sea Bass!";
+  fish.style.display = "inline";
+  fishing2HB.style.display = "none";
+  document.getElementById("imgfish").src = "https://www.seafoodwatch.org/globalassets/sfw-data-blocks/species/seabass/black-sea-bass.png";
+};
+
+reel2.onclick = function () {
+  fish.style.display = "inline";
+  fishing2Hb.style.display = "none";
+  instruct.innerHTML = "Your bait was too small and the hook was too big for the mosquito to bite. The mosquito stole your bait!";
+  document.getElementById("imgfish").src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/HD_transparent_picture.png/1280px-HD_transparent_picture.png";
+};
+
+reel3.onclick = function () {
+  fish.style.display = "inline";
+  fishing2hb.style.display = "none";
+  instruct.innerHTML = "WOW! You caught a mosquito!";
+  document.getElementById("imgfish").src = "https://www.pestec.com/uploads/page/house-mosquito-photorealistic-2.png";
+};
+
+reel4.onclick = function () {
+  document.getElementById("imgfish").src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/HD_transparent_picture.png/1280px-HD_transparent_picture.png";
+  fish.style.display = "inline";
+  fishing2hB.style.display = "none";
+  instruct.innerHTML = "Your bait was too big and it flew off your hook. You caught nothing!";
+};
+
+rtm.onclick = function () {
+  MM.style.display = "inline";
+  fish.style.display = "none";
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbInBsYXkiLCJkb2N1bWVudCIsInF1ZXJ5U2VsZWN0b3IiLCJNTSIsIk9wdDEiLCJPcHQySCIsIk9wdDJoIiwiT3B0MkhCIiwiT3B0MmhiIiwiT3B0MkhiIiwiT3B0MmhCIiwiZmlzaGluZzJIQiIsImZpc2hpbmcySGIiLCJmaXNoaW5nMmhiIiwiZmlzaGluZzJoQiIsIkxhcmdlSG9vayIsIlNtYWxsSG9vayIsIkxhcmdlQmFpdCIsIlNtYWxsQmFpdCIsIkxhcmdlQmFpdEkiLCJTbWFsbEJhaXRJIiwicmlnMSIsInJpZzIiLCJyaWczIiwicmlnNCIsInJlZWwxIiwicmVlbDIiLCJyZWVsMyIsInJlZWw0IiwiZmlzaCIsInJ0bSIsImluc3RydWN0IiwiZmlzaGltZyIsIm9uY2xpY2siLCJzdHlsZSIsImRpc3BsYXkiLCJpbm5lckhUTUwiLCJnZXRFbGVtZW50QnlJZCIsInNyYyJdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQSxJQUFJQSxJQUFJLEdBQUNDLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixVQUF2QixDQUFUO0FBQ0EsSUFBSUMsRUFBRSxHQUFDRixRQUFRLENBQUNDLGFBQVQsQ0FBdUIsV0FBdkIsQ0FBUDtBQUNBLElBQUlFLElBQUksR0FBQ0gsUUFBUSxDQUFDQyxhQUFULENBQXVCLFVBQXZCLENBQVQ7QUFDQSxJQUFJRyxLQUFLLEdBQUNKLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixXQUF2QixDQUFWO0FBQ0EsSUFBSUksS0FBSyxHQUFDTCxRQUFRLENBQUNDLGFBQVQsQ0FBdUIsV0FBdkIsQ0FBVjtBQUNBLElBQUlLLE1BQU0sR0FBQ04sUUFBUSxDQUFDQyxhQUFULENBQXVCLFlBQXZCLENBQVg7QUFDQSxJQUFJTSxNQUFNLEdBQUNQLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixZQUF2QixDQUFYO0FBQ0EsSUFBSU8sTUFBTSxHQUFDUixRQUFRLENBQUNDLGFBQVQsQ0FBdUIsWUFBdkIsQ0FBWDtBQUNBLElB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cUIsS0FBWCxDQUFpQkMsT0FBakIsR0FBeUIsTUFBekI7QUFDQUosRUFBQUEsUUFBUSxDQUFDSyxTQUFULEdBQW1CLDZCQUFuQjtBQUFrRG5DLEVBQUFBLFFBQVEsQ0FBQ29DLGNBQVQsQ0FBd0IsU0FBeEIsRUFBbUNDLEdBQW5DLEdBQXVDLHlFQUF2QztBQUNyRCxDQUpEOztBQU1BVixLQUFLLENBQUNLLE9BQU4sR0FBYyxZQUFVO0FBQUVoQyxFQUFBQSxRQUFRLENBQUNvQyxjQUFULENBQXdCLFNBQXhCLEVBQW1DQyxHQUFuQyxHQUF1Qyx3SEFBdkM7QUFDdEJULEVBQUFBLElBQUksQ0FBQ0ssS0FBTCxDQUFXQyxPQUFYLEdBQW1CLFFBQW5CO0FBQ0FyQixFQUFBQSxVQUFVLENBQUNvQixLQUFYLENBQWlCQyxPQUFqQixHQUF5QixNQUF6QjtBQUNBSixFQUFBQSxRQUFRLENBQUNLLFNBQVQsR0FBbUIsc0VBQW5CO0FBRUgsQ0FMRDs7QUFPQU4sR0FBRyxDQUFDRyxPQUFKLEdBQVksWUFBVTtBQUNsQjlCLEVBQUFBLEVBQUUsQ0FBQytCLEtBQUgsQ0FBU0MsT0FBVCxHQUFpQixRQUFqQjtBQUNBTixFQUFBQSxJQUFJLENBQUNLLEtBQUwsQ0FBV0MsT0FBWCxHQUFtQixNQUFuQjtBQUNILENBSEQiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBEZWNsYXJlIHZhcmlhYmxlcyBiZWxvdyB0byBzYXZlIHRoZSBkaWZmZXJlbnQgc2VjdGlvbnMgKGRpdnMpIG9mIHlvdXIgc3RvcnkqL1xubGV0IHBsYXk9ZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5wbGF5YnRuXCIpO1xubGV0IE1NPWRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIuTWFpbk1lbnVcIik7XG5sZXQgT3B0MT1kb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiLk9wdGlvbjFcIik7XG5sZXQgT3B0Mkg9ZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5PcHRpb24ySFwiKTtcbmxldCBPcHQyaD1kb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiLk9wdGlvbjJoXCIpO1xubGV0IE9wdDJIQj1kb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiLk9wdGlvbjJIQlwiKTtcbmxldCBPcHQyaGI9ZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5PcHRpb24yaGJcIik7XG5sZXQgT3B0MkhiPWRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIuT3B0aW9uMkhiXCIpO1xubGV0IE9wdDJoQj1kb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiLk9wdGlvbjJoQlwiKTtcbmxldCBmaXNoaW5nMkhCPWRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIuZmlzaGluZzJIQlwiKTtcbmxldCBmaXNoaW5nMkhiPWRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIuZmlzaGluZzJIYlwiKTtcbmxldCBmaXNoaW5nMmhiPWRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIuZmlzaGluZzJoYlwiKTtcbmxldCBmaXNoaW5nMmhCPWRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIuZmlzaGluZzJoQlwiKTtcbmxldCBMYXJnZUhvb2s9ZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5CT1hMYXJnZUhvb2tcIik7XG5sZXQgU21hbGxIb29rPWRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIuQk9YU21hbGxIb29rXCIpO1xubGV0IExhcmdlQmFpdD1kb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiLkJPWExhcmdlQmFpdDFcIik7XG5sZXQgU21hbGxCYWl0PWRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIuQk9YU21hbGxCYWl0MVwiKTtcbmxldCBMYXJnZUJhaXRJPWRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIuQk9YTGFyZ2VCYWl0MUlcIik7XG5sZXQgU21hbGxCYWl0ST1kb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiLkJPWFNtYWxsQmFpdDFJXCIpO1xubGV0IHJpZzE9ZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5yaWcxXCIpO1xubGV0IHJpZzI9ZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5yaWcyXCIpO1xubGV0IHJpZzM9ZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5yaWczXCIpO1xubGV0IHJpZzQ9ZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5yaWc0XCIpO1xubGV0IHJlZWwxPWRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIucmVlbDFcIik7XG5sZXQgcmVlbDI9ZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5yZWVsMlwiKTtcbmxldCByZWVsMz1kb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiLnJlZWwzXCIpO1xubGV0IHJlZWw0PWRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIucmVlbDRcIik7XG5sZXQgZmlzaD1kb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiLmZpc2hcIik7XG5sZXQgcnRtPWRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIuUlRNXCIpO1xubGV0IGluc3RydWN0PWRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIuaW5zdHJ1Y3QxXCIpO1xubGV0IGZpc2hpbWc9ZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5maXNoaW1nXCIpO1xuXG4vKiBXaGVuIHlvdSdyZSByZWFkeSB0byBtYWtlIGV2ZW50IGhhbmRsZXJzLCB1bmNvbW1lbnQgdGhlIGNvZGUgYmVsb3cuIFRoZW4gZmlsbCBpbiB0aGUgYmxhbmtzIHdpdGggdGhlIGNvcnJlY3QgdmFyaWFibGVzISovXG5wbGF5Lm9uY2xpY2s9ZnVuY3Rpb24oKXtcbiAgICBPcHQxLnN0eWxlLmRpc3BsYXk9XCJpbmxpbmVcIjtcbiAgICBNTS5zdHlsZS5kaXNwbGF5PVwibm9uZVwiO1xufTtcblxuTGFyZ2VIb29rLm9uY2xpY2s9ZnVuY3Rpb24oKXtcbiAgICBPcHQySC5zdHlsZS5kaXNwbGF5PVwiaW5saW5lXCI7XG4gICAgT3B0MS5zdHlsZS5kaXNwbGF5PVwibm9uZVwiO1xufTtcblxuXG5TbWFsbEhvb2sub25jbGljaz1mdW5jdGlvbigpe1xuICAgIE9wdDJoLnN0eWxlLmRpc3BsYXk9XCJpbmxpbmVcIjtcbiAgICBPcHQxLnN0eWxlLmRpc3BsYXk9XCJub25lXCI7XG59O1xuXG5MYXJnZUJhaXQub25jbGljaz1mdW5jdGlvbigpe1xuICAgIE9wdDJIQi5zdHlsZS5kaXNwbGF5PVwiaW5saW5lXCI7XG4gICAgT3B0Mkguc3R5bGUuZGlzcGxheT1cIm5vbmVcIjtcbn07XG5cdHJpZzEub25jbGljaz1mdW5jdGlvbigpe1xuICAgICAgICBmaXNoaW5nMkhCLnN0eWxlLmRpc3BsYXk9XCJpbmxpbmVcIjtcbiAgICAgICAgT3B0MkhCLnN0eWxlLmRpc3BsYXk9XCJub25lXCI7XG4gICAgfTtcblxuU21hbGxCYWl0Lm9uY2xpY2s9ZnVuY3Rpb24oKXtcbiAgICBPcHQyaGIuc3R5bGUuZGlzcGxheT1cImlubGluZVwiO1xuICAgIE9wdDJoLnN0eWxlLmRpc3BsYXk9XCJub25lXCI7XG59O1xuXHRyaWczLm9uY2xpY2s9ZnVuY3Rpb24oKXtcbiAgICAgICAgZmlzaGluZzJoYi5zdHlsZS5kaXNwbGF5PVwiaW5saW5lXCI7XG4gICAgICAgIE9wdDJoYi5zdHlsZS5kaXNwbGF5PVwibm9uZVwiO1xuICAgIH07XG5cbkxhcmdlQmFpdEkub25jbGljaz1mdW5jdGlvbigpe1xuICAgIE9wdDJoQi5zdHlsZS5kaXNwbGF5PVwiaW5saW5lXCI7XG4gICAgT3B0Mmguc3R5bGUuZGlzcGxheT1cIm5vbmVcIjtcbn07XG5cdHJpZzQub25jbGljaz1mdW5jdGlvbigpe1xuICAgICAgICBmaXNoaW5nMmhCLnN0eWxlLmRpc3BsYXk9XCJpbmxpbmVcIjtcbiAgICAgICAgT3B0MmhCLnN0eWxlLmRpc3BsYXk9XCJub25lXCI7XG4gICAgfTtcblxuU21hbGxCYWl0SS5vbmNsaWNrPWZ1bmN0aW9uKCl7XG4gICAgT3B0MkhiLnN0eWxlLmRpc3BsYXk9XCJpbmxpbmVcIjtcbiAgICBPcHQySC5zdHlsZS5kaXNwbGF5PVwibm9uZVwiO1xufTtcblx0cmlnMi5vbmNsaWNrPWZ1bmN0aW9uKCl7XG4gICAgICAgIGZpc2hpbmcySGIuc3R5bGUuZGlzcGxheT1cImlubGluZVwiO1xuICAgICAgICBPcHQySGIuc3R5bGUuZGlzcGxheT1cIm5vbmVcIjtcbiAgICB9O1xuXG5yZWVsMS5vbmNsaWNrPWZ1bmN0aW9uKCl7XG4gICAgaW5zdHJ1Y3QuaW5uZXJIVE1MPVwiV09XISBZb3UgY2F1Z2h0IGEgR2lhbnQgU2VhIEJhc3MhXCI7XG4gICAgZmlzaC5zdHlsZS5kaXNwbGF5PVwiaW5saW5lXCI7XG4gICAgZmlzaGluZzJIQi5zdHlsZS5kaXNwbGF5PVwibm9uZVwiOyBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChcImltZ2Zpc2hcIikuc3JjPVwiaHR0cHM6Ly93d3cuc2VhZm9vZHdhdGNoLm9yZy9nbG9iYWxhc3NldHMvc2Z3LWRhdGEtYmxvY2tzL3NwZWNpZXMvc2VhYmFzcy9ibGFjay1zZWEtYmFzcy5wbmdcIjtcbn07XG5cbnJlZWwyLm9uY2xpY2s9ZnVuY3Rpb24oKXtcbiAgICBmaXNoLnN0eWxlLmRpc3BsYXk9XCJpbmxpbmVcIjtcbiAgICBmaXNoaW5nMkhiLnN0eWxlLmRpc3BsYXk9XCJub25lXCI7XG4gICAgaW5zdHJ1Y3QuaW5uZXJIVE1MPVwiWW91ciBiYWl0IHdhcyB0b28gc21hbGwgYW5kIHRoZSBob29rIHdhcyB0b28gYmlnIGZvciB0aGUgbW9zcXVpdG8gdG8gYml0ZS4gVGhlIG1vc3F1aXRvIHN0b2xlIHlvdXIgYmFpdCFcIjsgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoXCJpbWdmaXNoXCIpLnNyYz1cImh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL2NvbW1vbnMvdGh1bWIvOC84OS9IRF90cmFuc3BhcmVudF9waWN0dXJlLnBuZy8xMjgwcHgtSERfdHJhbnNwYXJlbnRfcGljdHVyZS5wbmdcIjtcbn07XG5cbnJlZWwzLm9uY2xpY2s9ZnVuY3Rpb24oKXtcbiAgICBmaXNoLnN0eWxlLmRpc3BsYXk9XCJpbmxpbmVcIjtcbiAgICBmaXNoaW5nMmhiLnN0eWxlLmRpc3BsYXk9XCJub25lXCI7XG4gICAgaW5zdHJ1Y3QuaW5uZXJIVE1MPVwiV09XISBZb3UgY2F1Z2h0IGEgbW9zcXVpdG8hXCI7IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKFwiaW1nZmlzaFwiKS5zcmM9XCJodHRwczovL3d3dy5wZXN0ZWMuY29tL3VwbG9hZHMvcGFnZS9ob3VzZS1tb3NxdWl0by1waG90b3JlYWxpc3RpYy0yLnBuZ1wiO1xufTtcblxucmVlbDQub25jbGljaz1mdW5jdGlvbigpeyBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChcImltZ2Zpc2hcIikuc3JjPVwiaHR0cHM6Ly91cGxvYWQud2lraW1lZGlhLm9yZy93aWtpcGVkaWEvY29tbW9ucy90aHVtYi84Lzg5L0hEX3RyYW5zcGFyZW50X3BpY3R1cmUucG5nLzEyODBweC1IRF90cmFuc3BhcmVudF9waWN0dXJlLnBuZ1wiO1xuICAgIGZpc2guc3R5bGUuZGlzcGxheT1cImlubGluZVwiO1xuICAgIGZpc2hpbmcyaEIuc3R5bGUuZGlzcGxheT1cIm5vbmVcIjtcbiAgICBpbnN0cnVjdC5pbm5lckhUTUw9XCJZb3VyIGJhaXQgd2FzIHRvbyBiaWcgYW5kIGl0IGZsZXcgb2ZmIHlvdXIgaG9vay4gWW91IGNhdWdodCBub3RoaW5nIVwiO1xuICAgIFxufTtcblxucnRtLm9uY2xpY2s9ZnVuY3Rpb24oKXtcbiAgICBNTS5zdHlsZS5kaXNwbGF5PVwiaW5saW5lXCI7XG4gICAgZmlzaC5zdHlsZS5kaXNwbGF5PVwibm9uZVwiO1xufTsiXX0=</script></body></html>
